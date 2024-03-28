@@ -1,34 +1,20 @@
-fastapi
-langchain
-nltk
-numpy
-langdetect
-pillow
-pandas
-scikit-learn
-matplotlib
-openai
-polars
-pyspark
-pydantic
-torch --index-url https://download.pytorch.org/whl/cu118
-torchvision
-torchaudio
-
-
-requests
-wordcloud
-transformers
+requests # Requests is an elegant and simple HTTP library for Python, built for human beings.
+wordcloud # A little word cloud generator in Python.
+fastapi # FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+numpy # NumPy is the fundamental package for scientific computing with Python.
+langdetect # Language detection for Python.
+nltk # The Natural Language Toolkit (NLTK) is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in the Python programming language.
+pillow # The Python Imaging Library adds image processing capabilities to your Python interpreter.
+matplotlib # Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+pydantic # data validation and settings management using Python type hints
 
 unstructured
 unstructured[local-inference]
 # The unstructured library provides open-source components for pre-processing text documents such as PDFs, HTML and Word Documents.
 
-pybind11
-# pybind11 is a lightweight header-only library that exposes C++ types in Python
-
-chromadb
-# the AI-native open-source embedding database
+pandas # pandas is a fast, powerful, flexible and easy to use open source data analysis and data manipulation library built on top of the Python programming language.
+polars # similar to pandas, but faster
+pyspark # PySpark is the Python API for Apache Spark, a cluster computing system.
 
 layoutparser[layoutmodels,tesseract]
 # A Unified Toolkit for Deep Learning Based Document Image Analysis
@@ -39,6 +25,23 @@ pytesseract
 Pillow==10.0.0
 # The Python Imaging Library adds image processing capabilities to your Python interpreter. Need this version, otherwise errors occur.
 
+
+chromadb
+# the AI-native open-source embedding database
+
+transformers # State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
+torch --index-url https://download.pytorch.org/whl/cu118 # PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab (FAIR).
+torchvision # The torchvision package consists of popular datasets, model architectures, and common image transformations for computer vision.
+torchaudio # torchaudio is an audio library for PyTorch.
+scikit-learn # machine learning library
+
+openai # OpenAI is an artificial intelligence research laboratory consisting of the for-profit OpenAI LP and the non-profit OpenAI Inc.
+langchain # Langchain is a Python library for building and deploying language models.
+langchain-openai # Langchain is a Python library for building and deploying language models.
+
+pybind11
+# pybind11 is a lightweight header-only library that exposes C++ types in Python
+
 Cython # Cython is an optimising static compiler for both the Python programming language
 
 # !CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
@@ -46,4 +49,5 @@ Cython # Cython is an optimising static compiler for both the Python programming
 # !pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
 # COCO is a large image dataset designed for object detection, segmentation, person keypoints detection, stuff segmentation, and caption generation
 
-# jupyterlab
+notebook # Jupyter Interactive Notebook
+jupyterlab # JupyterLab is the next-generation web-based user interface for Project Jupyter.
